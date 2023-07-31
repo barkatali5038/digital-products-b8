@@ -15,3 +15,53 @@ color: brown;
 cursor: url("https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/imghp%3Fhl%3Den%26tab%3Dri%26ogbl&ec=GBRAAg"), auto;
 }
 
+
+/* flex, justify-content, alling-items */
+
+.container{
+    display: inline;
+ /* for inline or up, down, down */
+ display: flex; 
+ /* flex for left, left, left use */
+
+
+
+ /* justify content mainly work with row base/ weight wise */
+ justify-content: center;
+ /* whole content will go in center */
+justify-content: space-between;
+/* content will take gap in middle */
+justify-content: space-around;
+/* but if we use space around we can see the content will take space in middle and give some space left & right also */
+
+
+
+
+/* collumwise/ height wise work align items  */
+align-items: center;
+/* align-items: end; */
+
+flex-direction: row-reverse;
+/* row-reverse use for end first like 1,2,3 to 3,2,1 */
+
+}
+
+.box{
+    padding: 20px;
+    background-color: blue;
+    width: 110px;
+
+}
+
+/* class work with last one first */
+
+.box2{
+    background-color: aqua;
+}
+
+.box3{
+background-color: blueviolet;
+
+}
+
+
