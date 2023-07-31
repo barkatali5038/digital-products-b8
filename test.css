@@ -1,0 +1,17 @@
+
+
+
+/* (*) is use for added all the tag use in html, we can call it as universal tag */
+*{
+margin: 0;
+padding: 0%;
+    
+}
+
+/* how to set hover or change mouse cursor icon, cursor */
+.test {
+color: brown;
+/* cursor:progress; */
+cursor: url("https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/imghp%3Fhl%3Den%26tab%3Dri%26ogbl&ec=GBRAAg"), auto;
+}
+
