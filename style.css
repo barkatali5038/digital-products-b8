@@ -81,3 +81,18 @@ cursor: progress;
     background-color: chartreuse;
  }
 
+ .about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* row-reverse means left one move to right and same right move to left */
+    flex-direction: row-reverse;
+padding: 10px;
+/* height: 100vh; */
+ }
+
+ .about-title{
+    text-align: center;
+    padding-top: 20px;
+ }
+
