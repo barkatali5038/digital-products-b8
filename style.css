@@ -24,13 +24,13 @@ justify-content: space-around;
 
 .item{
 /* margin: 10px 10px 10px 10px; you can add it one time margin: 10px; */
-margin-right: 10px;
- padding-right: 10px; 
+margin-left: 10px;
+ padding-left: 10px; 
  font-size: 18px;
  cursor: pointer;
 }
 
-/* hover use like this first .item and : then hover */
+/* hover use like this first select .item and : then hover */
 
 .item:hover{
     color: blue;
@@ -39,4 +39,45 @@ margin-right: 10px;
 .logo-photo{
     width: 120px;
 }
+
+.banner-img{
+width: 300px;
+}
+
+.baner-container{
+display: flex;
+justify-content: space-around;
+height: 100vh;
+/* 100 vh means totall screen. no scrolling height. it's important to add height to add align-items */
+align-items: center;
+color: white;
+background-image: url("./images/background.png"), linear-gradient(45deg, rgb(22, 9, 9), rgb(51, 50, 50));
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.title{
+font-size: 55px;
+font-weight: bold;
+}
+
+.description{
+font-size: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+
+}
+
+.btn{
+    padding: 20px ;
+background-color: red;
+color: wheat;
+border: none;
+cursor: progress;
+}
+ .btn:hover{
+    color: red;
+    background-color: chartreuse;
+ }
 
