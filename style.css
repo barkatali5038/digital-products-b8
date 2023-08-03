@@ -96,3 +96,82 @@ padding: 10px;
     padding-top: 20px;
  }
 
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon{
+    width: 70px;
+}
+
+.box-btn{
+background-color: gray;
+margin-top: 10px;
+
+}
+
+.box-title{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.box-description{
+padding: 5px;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    /color: white;
+    padding: 50px;
+}
+
+.footer-container{
+    background-color: rgb(20, 19, 19);
+/* padding: 20px ; */
+color: white;
+/* list-style: none; */
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 60vh;
+/* width: 75%;  */
+margin: 0 auto;
+
+}
+
+/* .footer-title{
+    margin-bottom: 10px;
+} */
+
+.logo-box{
+/* width: 25%; */
+margin: 0;
+padding: 0;
+}
+
+.logo{
+    padding: 5px;
+    margin: 0;
+    width: 170px;
+}
+.copy {
+    margin-top: 0;
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+
+.hr{
+    width: 75%;
+    justify-content: center;
+}
